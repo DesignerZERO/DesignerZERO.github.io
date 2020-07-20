@@ -6,10 +6,19 @@
     <title>Project | KimTaeYoung</title>
     <link rel="stylesheet" href="reset.css" type="text/css" />
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <script>
+      function onloadevent() {
+        document.getElementById("loader").style.opacity = "0";
+      }
+
+      window.onload = function () {
+        onloadevent();
+      };
+    </script>
   </head>
   <body>
-    <div class="loader">
-      <img src="images/loader.gif" />
+    <div id="loader">
+      <img src="images/Spinner-1s-234px.svg" />
     </div>
     <div class="max_1366">
       <section class="pj_detail">

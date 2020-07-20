@@ -6,10 +6,19 @@
     <title>Project | KimTaeYoung</title>
     <link rel="stylesheet" href="reset.css" type="text/css" />
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <script>
+      function onloadevent() {
+        document.getElementById("loader").style.opacity = "0";
+      }
+
+      window.onload = function () {
+        onloadevent();
+      };
+    </script>
   </head>
   <body>
-    <div class="loader">
-      <img src="images/loader.gif" />
+    <div id="loader">
+      <img src="images/Spinner-1s-234px.svg" />
     </div>
     <div class="max_1366">
       <section class="pj_detail">
@@ -72,24 +81,5 @@
       integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
       crossorigin="anonymous"
     ></script>
-    <script>
-      function preload(arrayOfImages) {
-        $(arrayOfImages).each(function () {
-          $("<img/>")[0].src = this;
-        });
-        setTimeout(function () {
-          $(".loader").fadeToggle();
-        }, 200);
-      }
-      preload([
-        "images/pj_1_detail_1.jpg",
-        "images/pj_1_detail_2.jpg",
-        "images/pj_1_detail_3.jpg",
-        "images/pj_1_detail_4.jpg",
-        "images/pj_1_detail_5.jpg",
-        "images/pj_1_detail_6.jpg",
-        "images/pj_1_detail_end.jpg",
-      ]);
-    </script>
   </body>
 </html>
