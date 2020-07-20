@@ -175,8 +175,23 @@
     crossorigin="anonymous"
   ></script>
   <script>
-    setTimeout(function () {
-      $(".loader").fadeToggle();
-    }, 500);
+    function preload(arrayOfImages) {
+      $(arrayOfImages).each(function () {
+        $("<img/>")[0].src = this;
+      });
+      setTimeout(function () {
+        $(".loader").fadeToggle();
+      }, 200);
+    }
+    preload([
+      "images/thumb_1.png",
+      "images/thumb_2.png",
+      "images/thumb_3.png",
+      "images/thumb_4.png",
+      "images/thumb_5.png",
+      "images/thumb_6.png",
+      "images/thumb_7.png",
+      "images/thumb_8.png",
+    ]);
   </script>
 </html>
