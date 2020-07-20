@@ -36,6 +36,23 @@ body {
   font-family: Helvetica Neue, Helvetica, Roboto, sans-serif;
   font-weight: 700;
 }
+
+.loader {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10000;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.loader img {
+  position: absolute;
+  z-index: 100000;
+  top: 50vh;
+  left: 50vw;
+}
+
 .main_body {
   background-color: #222222;
   color: #ffffff;
