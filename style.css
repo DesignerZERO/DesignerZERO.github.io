@@ -482,3 +482,62 @@ body {
   margin-bottom: 80px;
   margin-left: 140px;
 }
+
+/* 모바일 페이지 */
+
+.mobile_body {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+.mobile_body header {
+  font-size: 14px;
+  line-height: 14px;
+  margin: 98px 24px 0 24px;
+}
+
+.mobile_body main h1 {
+  font-size: 36px;
+  line-height: 48px;
+  margin: 40px 24px 0 24px;
+}
+
+.mobile_body h2 {
+  font-size: 16px;
+  line-height: 26px;
+  margin: 40px 24px 0 24px;
+}
+
+.mobile_footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: #222222;
+}
+
+.mobile_footer .contact {
+  margin: 0 24px;
+}
+.mobile_footer .contact p {
+  display: inline;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.mobile_footer .contact .contact_title {
+  display: inline-block;
+  width: 66px;
+  font-weight: 700;
+}
+.mobile_footer .notice {
+  display: block;
+  background-color: #fff;
+  color: #222;
+  padding: 20px 24px;
+  margin-top: 12px;
+}
+.mobile_footer .notice h2 {
+  margin: 0;
+  font-size: 14px;
+}
