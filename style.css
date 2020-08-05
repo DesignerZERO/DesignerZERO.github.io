@@ -1,4 +1,9 @@
 /* text scaling */
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+<link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'> *
+{
+  font-family: "Spoqa Han Sans", "Spoqa Han Sans JP", "Sans-serif";
+}
 .h1 {
   font-size: 70px;
   line-height: 88px;
@@ -37,7 +42,7 @@ a:focus {
   margin-left: 456px;
 }
 body {
-  font-family: Helvetica Neue, Helvetica, Roboto, sans-serif;
+  font-family: Helvetica Neue, Helvetica, Roboto, "Spoqa Han Sans", sans-serif;
   font-weight: 700;
 }
 #loader {
