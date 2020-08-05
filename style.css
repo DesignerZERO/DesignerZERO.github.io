@@ -147,7 +147,7 @@ main {
   transform: translateX(50px);
 }
 
-span:nth-child(1) {
+a span:nth-child(1) {
   padding-right: 14px;
   border-right: rgba(255, 255, 255, 0.2) 1px solid;
 }
@@ -227,6 +227,11 @@ span:nth-child(1) {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.store_icon img {
+  margin-top: 24px;
+  width: 100px;
 }
 footer {
   background-color: #111;
@@ -476,6 +481,7 @@ body {
 
 .company_logo_1 img {
   height: 20px;
+  margin-top: 60px;
   margin-bottom: 80px;
   margin-left: 140px;
 }
@@ -485,6 +491,32 @@ body {
   margin-top: 40px;
   margin-bottom: 80px;
   margin-left: 140px;
+}
+.summary_history ul {
+  display: flex;
+}
+
+.summary_history li {
+  width: ;
+  text-align: center;
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.summary_history .number {
+  font-size: 100px;
+  line-height: 60px;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+}
+
+.summary_history .summary_title {
+  font-size: 16px;
+  font-weight: 700;
+  display: block;
+  margin-top: 32px;
+  text-align: center;
 }
 
 /* 모바일 페이지 */
